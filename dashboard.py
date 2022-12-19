@@ -184,9 +184,9 @@ elif customer_result :
                     }))
                 st.plotly_chart(fig, use_container_width=True)
                 shap_values0, expected_values0 = get_shap_explainer(i) 
-                shap_title0 = '<p style="font-family:Arial; font-weight: bold;color:Black; font-size: 30px;">Assessing feature importance based on Shap values</p>'
-                shap_title1 = '<p style="font-family:Arial; font-weight: bold;color:Black; font-size: 20px;">Shap Force Plot</p>'
-                shap_title2 = '<p style="font-family:Arial; font-weight: bold;color:Black; font-size: 20px;">Shap bar plot</p>'         
+                shap_title0 = '<p style="font-family:Arial; font-weight: bold;color:Black; font-size: 30px;">Assessing feature importance based on Shap values for non_payment of credit</p>'
+                shap_title1 = '<p style="font-family:Arial; font-weight: bold;color:Black; font-size: 15px;">Shap Force Plot</p>'
+                shap_title2 = '<p style="font-family:Arial; font-weight: bold;color:Black; font-size: 15px;">Shap bar plot</p>'         
                 st.markdown(shap_title0,unsafe_allow_html=True)
                 st.markdown(shap_title1,unsafe_allow_html=True)
                 st.set_option('deprecation.showPyplotGlobalUse', False)
