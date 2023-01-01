@@ -1,3 +1,3 @@
-# Projet07_Dashboard
+# OC_Projet07_ Dashboard interactif
 
-https://victoire76-projet07-dashboard-dashboard-2sfss9.streamlit.app/
+Network URL : https://victoire76-projet07-dashboard-dashboard-2sfss9.streamlit.app/
